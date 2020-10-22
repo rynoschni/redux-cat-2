@@ -1,10 +1,13 @@
-import React from 'react';
-import Activity from './components/Activity';
+import React from "react";
+import AddCat from "./components/AddCat";
+import CatList from "./components/CatList";
 
 function App() {
   return (
     <div className="App">
-      <Activity />
+      <h1>Satan's Spawn</h1>
+      <AddCat />
+      <CatList />
     </div>
   );
 }
